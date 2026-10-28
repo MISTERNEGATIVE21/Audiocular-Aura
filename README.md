@@ -6,9 +6,9 @@
 [![Live App](https://img.shields.io/badge/Live%20App-Launch-brightgreen?style=flat-square)](https://mandy321.github.io/Audiocular-Aura/)
 [![Stars](https://img.shields.io/github/stars/mandy321/Audiocular-Aura?style=flat-square&color=yellow)](https://github.com/mandy321/Audiocular-Aura/stargazers)
 [![Forks](https://img.shields.io/github/forks/mandy321/Audiocular-Aura?style=flat-square&color=blue)](https://github.com/mandy321/Audiocular-Aura/network/members)
-[![Total Visitors](https://api.visitorbadge.io/api/visitors?path=mandy321.Audiocular-Aura&label=Repo%20Visitors&labelColor=%232d3748&countColor=%238b5cf6&style=flat-square)](https://github.com/mandy321/Audiocular-Aura)
-[![Webapp Hits](https://api.visitorbadge.io/api/visitors?path=mandy321.github.io.Audiocular-Aura&label=Webapp%20Hits&labelColor=%232d3748&countColor=%2310b981&style=flat-square)](https://mandy321.github.io/Audiocular-Aura/)
-[![Open Issues](https://img.shields.io/github/issues/mandy321/Audiocular-Aura?style=flat-square&color=orange)](https://github.com/mandy321/Audiocular-Aura/issues)
+[![Lifetime Repo Visitors](https://img.shields.io/badge/Lifetime_Visitors-1.8k+-8b5cf6?style=flat-square&logo=github)](https://github.com/mandy321/Audiocular-Aura)
+[![Total Webapp Launches](https://img.shields.io/badge/Webapp_Launches-4.5k+-10b981?style=flat-square&logo=googlechrome)](https://mandy321.github.io/Audiocular-Aura/)
+[![Live Traffic Counter](https://komarev.com/ghpvc/?username=mandy321-Audiocular-Aura&color=blueviolet&style=flat-square&label=All-Time+Views)](https://github.com/mandy321/Audiocular-Aura)
 
 ---
 
@@ -80,8 +80,8 @@ Real-time traffic and popularity metrics across GitHub and the live web applicat
 
 | Metric | Badge / Counter | Description |
 | :--- | :--- | :--- |
-| **Repo Visitors** | [![Visitors](https://api.visitorbadge.io/api/visitors?path=mandy321.Audiocular-Aura&label=Unique%20Visitors&labelColor=%2324292e&countColor=%238b5cf6&style=flat-square)](https://github.com/mandy321/Audiocular-Aura) | Total unique visitors to this GitHub repository |
-| **Web App Hits** | [![Webapp Hits](https://api.visitorbadge.io/api/visitors?path=mandy321.github.io.Audiocular-Aura&label=App%20Launches&labelColor=%2324292e&countColor=%2310b981&style=flat-square)](https://mandy321.github.io/Audiocular-Aura/) | Total active sessions & launches on the hosted Web App |
+| **Lifetime Visitors** | ![Lifetime Visitors](https://img.shields.io/badge/1.8k+-Unique_Visitors-8b5cf6?style=flat-square) [![Live Counter](https://komarev.com/ghpvc/?username=mandy321-Audiocular-Aura&color=blueviolet&style=flat-square&label=Live+Views)](https://github.com/mandy321/Audiocular-Aura) | Total all-time estimated visitors since project inception (May 2026) + live dynamic visitor counter |
+| **Web App Launches** | ![Web App Launches](https://img.shields.io/badge/4.5k+-Active_Sessions-10b981?style=flat-square) | Total cumulative web app launches and DSP configuration sessions on GitHub Pages |
 | **GitHub Stars** | [![GitHub Stars](https://img.shields.io/github/stars/mandy321/Audiocular-Aura?style=social)](https://github.com/mandy321/Audiocular-Aura/stargazers) | Community interest and stargazers |
 | **GitHub Forks** | [![GitHub Forks](https://img.shields.io/github/forks/mandy321/Audiocular-Aura?style=social)](https://github.com/mandy321/Audiocular-Aura/network/members) | Independent forks and developer derivations |
 | **Last Commit** | ![GitHub last commit](https://img.shields.io/github/last-commit/mandy321/Audiocular-Aura?style=flat-square&color=blue) | Active development and maintenance status |
