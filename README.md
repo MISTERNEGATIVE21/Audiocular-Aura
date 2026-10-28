@@ -4,8 +4,11 @@
 
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](LICENSE)
 [![Live App](https://img.shields.io/badge/Live%20App-Launch-brightgreen?style=flat-square)](https://mandy321.github.io/Audiocular-Aura/)
-[![Stars](https://badgen.net/github/stars/mandy321/Audiocular-Aura?color=yellow)](https://github.com/mandy321/Audiocular-Aura/stargazers)
-[![Tech Stack](https://img.shields.io/badge/Stack-TypeScript%20%7C%20CSS-blueviolet?style=flat-square)](#-tech-stack)
+[![Stars](https://img.shields.io/github/stars/mandy321/Audiocular-Aura?style=flat-square&color=yellow)](https://github.com/mandy321/Audiocular-Aura/stargazers)
+[![Forks](https://img.shields.io/github/forks/mandy321/Audiocular-Aura?style=flat-square&color=blue)](https://github.com/mandy321/Audiocular-Aura/network/members)
+[![Total Visitors](https://api.visitorbadge.io/api/visitors?path=mandy321.Audiocular-Aura&label=Repo%20Visitors&labelColor=%232d3748&countColor=%238b5cf6&style=flat-square)](https://github.com/mandy321/Audiocular-Aura)
+[![Webapp Hits](https://api.visitorbadge.io/api/visitors?path=mandy321.github.io.Audiocular-Aura&label=Webapp%20Hits&labelColor=%232d3748&countColor=%2310b981&style=flat-square)](https://mandy321.github.io/Audiocular-Aura/)
+[![Open Issues](https://img.shields.io/github/issues/mandy321/Audiocular-Aura?style=flat-square&color=orange)](https://github.com/mandy321/Audiocular-Aura/issues)
 
 ---
 
@@ -66,6 +69,31 @@ AuraPEQ features a multi-protocol hardware communication layer that automaticall
 
 Please do not use for JM98 MAX 2 , JM98 MAX (Cirrus Logic chips as it can cause irreversible problems in these devices)
 ---
+
+
+
+---
+
+## 📊 Repository & Web App Analytics
+
+Real-time traffic and popularity metrics across GitHub and the live web application:
+
+| Metric | Badge / Counter | Description |
+| :--- | :--- | :--- |
+| **Repo Visitors** | [![Visitors](https://api.visitorbadge.io/api/visitors?path=mandy321.Audiocular-Aura&label=Unique%20Visitors&labelColor=%2324292e&countColor=%238b5cf6&style=flat-square)](https://github.com/mandy321/Audiocular-Aura) | Total unique visitors to this GitHub repository |
+| **Web App Hits** | [![Webapp Hits](https://api.visitorbadge.io/api/visitors?path=mandy321.github.io.Audiocular-Aura&label=App%20Launches&labelColor=%2324292e&countColor=%2310b981&style=flat-square)](https://mandy321.github.io/Audiocular-Aura/) | Total active sessions & launches on the hosted Web App |
+| **GitHub Stars** | [![GitHub Stars](https://img.shields.io/github/stars/mandy321/Audiocular-Aura?style=social)](https://github.com/mandy321/Audiocular-Aura/stargazers) | Community interest and stargazers |
+| **GitHub Forks** | [![GitHub Forks](https://img.shields.io/github/forks/mandy321/Audiocular-Aura?style=social)](https://github.com/mandy321/Audiocular-Aura/network/members) | Independent forks and developer derivations |
+| **Last Commit** | ![GitHub last commit](https://img.shields.io/github/last-commit/mandy321/Audiocular-Aura?style=flat-square&color=blue) | Active development and maintenance status |
+| **Top Referrers** | `audiosciencereview.com` • `reddit.com` • `Bing` • `Google` | Major community forums sending traffic to AuraPEQ |
+
+<details>
+<summary><b>📈 View Live GitHub Traffic Insights</b></summary>
+<br>
+
+* **Top External Communities**: Audio Science Review (`audiosciencereview.com`), r/headphones / r/inearfidelity (`reddit.com`), and organic search engines.
+* **Most Visited Documentation**: Hardware DSP engine (`/blob/main/src/dsp.ts`), AutoEq database integration, and WebHID issue troubleshooting.
+</details>
 
 ## 🛠️ Quick Start (Local Development)
 
