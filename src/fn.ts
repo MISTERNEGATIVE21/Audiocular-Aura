@@ -7,6 +7,7 @@ import {
 	VID_SAVITECH_ALT,
 	VID_SAVITECH_OFFICIAL,
 	VID_AUDIOCULAR,
+	PID_AUDIOCULAR_AURA_PRO,
 	activeDacs,
 } from "./constants.ts";
 import { readDeviceParams, setupListener, syncToDevice, queueRealtimeBandWrite, getProtocol, getActiveProtocol } from "./dsp.ts";
@@ -155,7 +156,8 @@ export function identifyConnectedDac(dev: HIDDevice) {
 	const isJa11 = dev.vendorId === VID_FIIO && dev.productId === 258;
 	const isSavitech = dev.vendorId === VID_SAVITECH || dev.vendorId === VID_SAVITECH_ALT || dev.vendorId === VID_SAVITECH_OFFICIAL || dev.vendorId === VID_AUDIOCULAR;
 	const isFiio10Band = dev.vendorId === VID_FIIO && dev.productId !== 258;
-	const sampleRateStr = (isSavitech || isMoondrop || isJa11 || isFiio10Band) ? "96 kHz" : "48 kHz";
+	const isAuraPro = dev.vendorId === VID_AUDIOCULAR && dev.productId === PID_AUDIOCULAR_AURA_PRO;
+	const sampleRateStr = isAuraPro ? "384 kHz / 32-bit (DSD256)" : ((isSavitech || isMoondrop || isJa11 || isFiio10Band) ? "96 kHz" : "48 kHz");
 
 	const infoSampleRate = document.getElementById("infoSampleRate");
 	if (infoSampleRate) infoSampleRate.innerText = sampleRateStr;
