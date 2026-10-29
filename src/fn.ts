@@ -113,11 +113,10 @@ export function updateLastAppliedEqUI() {
 }
 
 export function identifyConnectedDac(dev: HIDDevice) {
-	const match = activeDacs.find(
-		(d) =>
-			d.vid === dev.vendorId &&
-			(d.pid === undefined || d.pid === dev.productId)
-	);
+	// First prioritize an exact VID + PID match, then fall back to a VID-only wildcard match (pid === undefined)
+	const match =
+		activeDacs.find((d) => d.vid === dev.vendorId && d.pid === dev.productId) ||
+		activeDacs.find((d) => d.vid === dev.vendorId && d.pid === undefined);
 
 	const badgeContainer = document.getElementById("dacBadgeContainer");
 	const badgeName = document.getElementById("dacBadgeName");
